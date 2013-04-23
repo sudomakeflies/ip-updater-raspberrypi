@@ -1,0 +1,6 @@
+sudo cp IpUpdater.sh to /etc/init.d/
+sudo chmod a+x IpUpdater.sh
+cp /usr/local/sbin/ipUpdate.py
+sudo chmod a+x ipUdate.py
+sudo update-rc.d IpUpdater.sh defaults
+
